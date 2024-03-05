@@ -35,6 +35,7 @@ h4{
 
 .profile{
   border-top: 5px solid rgb(194, 194, 194);
+  display: flex;
 }
 
 .Morebtn{
