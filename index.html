@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Gundam News</title>
+    <style type="text/css">
+
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+  
+      * {
+        box-sizing: border-box;
+      }
+  
+      .slider {
+          width: 75%;
+          margin: 20px auto;
+          
+      }
+  
+      .slick-slide {
+        margin: 0px 20px;
+        
+      }
+  
+      .slick-slide img {
+        width: 100%;
+      }
+  
+      .slick-prev:before,
+      .slick-next:before {
+        color: black;
+      }
+  
+  
+      .slick-slide {
+        transition: all ease-in-out .3s;
+        
+      }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-transparent mynavbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Gundam News</a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Gundam News</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="news.html">News</a>
+                <a class="nav-link" href="#info">Movies</a>
+                <a class="nav-link" href="#history">About Gundam</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <section class="center slider">
+      <div>
+        <a href="">
+          <img src="img/seed_hero.jpg">
+        </a>
+      </div>
+      <div>
+        <a href="https://en.gundam.info/content/mgka/narrative/">
+          <img src="img/mgNTgundamVerKaBanner1280x720_en.jpg">
+        </a>
+      </div>
+      <div>
+        <a href="https://en.gundam.info/content/mgka/sinanjustein/">
+          <img src="img/mgSinanjuSteinVerKaBanner1280x720_en.jpg">
+        </a>
+      </div>
+      <div>
+        <a href="">
+          <img src="img/seed-d_hero.jpg">
+        </a>
+      </div>
+      <div>
+        <a href="https://en.gundam.info/about-gundam/series-pages/seedfreedom/">
+          <img src="img/herobanner_SEEDFREEDOM.jpg">
+        </a>
+      </div>
+      <div>
+        <a href="">
+          <img src="img/gundaminfo-heroimage-1280x720.png">
+        </a>
+      </div>
+    </section>
+      <main>
+        <div id="movie">
+            <article class="movieCard card">
+                <h2>MOVIES</h2>
+                <h4>Mobile Suit Gundam SEED DESTINY REMASTER PV (EN.HK.TW.KR Sub)</h4>
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/XrzkWjy2UPE?si=m82r3yIrKqA8d3fT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <center><a href="movie.html" class="Morebtn btn btn-lg mt-4 button_movie">Watch More Movies</a></center>
+            </article>
+        </div>
+        <aside>
+                <article class="profile card">
+                        <header>
+                            <h2>What is</h2>
+                            <h1>GUNDAM?</h1>
+                            <figure>
+                                <img src="img/img_whatisgundam.jpg" />
+                            </figure>
+                        </header>
+                        <p class="sideCaption">
+                          The Gundam Series,<br>which has been developed <br>since 1979, <br>The number of works has increased, <br>and the generations, <br>countries, <br>and preferences of the fans <br>who support us have also diversified.
+                        </p>
+                    </article>
+          </aside>
+      </main>
+        <main>
+          <div id="latestnews">
+            <h2>LATEST NEWS</h2>
+            <article class="latestNews">
+              <div class="row row-cols-lg-5 justify-content-center">
+                <div class="col">
+                  <div class="latest card" style="width: 21rem;">
+                      <a href="">
+                        <img src="news1img/202006_calendar_thumb.jpg" class="card-img-top" alt="...">
+                      </a>
+                      <h5 class="card-title">GUNDAM INFO March Streaming Calendar Has Been Updated</h5>
+                      <div class="card-body">
+                        <p class="card-text">February 29, 2024</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                  <div class="latest card" style="width: 21rem;">
+                    <a href="">
+                      <img src="news2img/thumbnail.jpg" class="card-img-top" alt="...">
+                    </a>
+                    <h5 class="card-title">GUNDAM SIDE-F Limited GUNPLA HG Geara Doga (Axis Shock Image Color) Goes on Sale on FeFebruary 23rd</h5>
+                    <div class="card-body">
+                      <p class="card-text">February 21, 2024</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="latest card" style="width: 21rem;">
+                    <a href="">
+                      <img src="news3img/thumbnail2.jpg" class="card-img-top" alt="...">
+                    </a>
+                    <h5 class="card-title">The HG Black Knight Squad Shiv-ve.A, SDW HEROES Musha Gundam The 78th, and SDW HEROES Onmitsu Gundam Aerial Go on Sale on February 23rd</h5>
+                    <div class="card-body">
+                      <p class="card-text">February 21, 2024</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="latest card" style="width: 21rem;">
+                    <a href="">
+                      <img src="news4img/samune.jpg" class="card-img-top" alt="...">
+                    </a>
+                    <h5 class="card-title">A Total of 33 Types Featuring Mobile Suit Gundam, THE WITCH FROM MERCURY, and SEED FREEDOM! Niformation Mobile Suit Gundam Sticker × Wafer ~Battle Overture~ Goes on Sale in June!</h5>
+                    <div class="card-body">
+                      <p class="card-text">February 20, 2024</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="latest card" style="width: 21rem;">
+                    <a href="">
+                      <img src="news5img/thum.jpg" class="card-img-top" alt="...">
+                    </a>
+                    <h5 class="card-title">MOBILE SUIT GUNDAM G FRAME FA 06 Goes on Sale in July! The Rising Freedom Gundam and Immortal Justice Join the Lineup!</h5>
+                    <div class="card-body">
+                      <p class="card-text">February 20, 2024</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <center><a href="news.html" class="Morebtn btn btn-lg mt-4 button_movie">See More News</a></center>
+            </article>
+          </div>
+        </main>
+        <footer>
+          <p>©SOTSU・SUNRISE ©SOTSU・SUNRISE・MBS ©SOTSU・SUNRISE・TV TOKYO <br>
+            Copyright ©Bandai Namco Filmworks Inc. All rights reserved. <br>
+            Rework by: Muhammad Dicky Hardyanto
+          </p>
+        </footer>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".vertical-center-4").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 4,
+        slidesToScroll: 2
+      });
+      $(".vertical-center-3").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".vertical-center-2").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 2,
+        slidesToScroll: 2
+      });
+      $(".vertical-center").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+      });
+      $(".vertical").slick({
+        dots: true,
+        vertical: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      });
+      $(".variable").slick({
+        dots: true,
+        infinite: true,
+        variableWidth: true
+      });
+      $(".lazy").slick({
+        lazyLoad: 'ondemand', // ondemand progressive anticipated
+        infinite: true
+      });
+    });
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
